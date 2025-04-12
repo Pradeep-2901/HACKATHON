@@ -2,11 +2,18 @@
 # Node.js
 # =========================
 node_modules/
+<<<<<<< HEAD
 dist/
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 lerna-debug.log*
+=======
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+>>>>>>> 1f56200e6da4dd854abbcea09ed4686b7af1d32d
 .env
 .env.local
 .env.development.local
@@ -14,6 +21,7 @@ lerna-debug.log*
 .env.production.local
 
 # =========================
+<<<<<<< HEAD
 # Python
 # =========================
 # Byte-compiled / optimized / DLL files
@@ -42,6 +50,24 @@ logs/
 # =========================
 .vscode/
 .idea/
+=======
+# Next.js
+# =========================
+.next/
+out/
+# Avoid output of `next export`
+# '.next' contains build artifacts
+
+# =========================
+# Vercel deployments (Optional)
+# =========================
+.vercel/
+
+# =========================
+# VS Code settings
+# =========================
+.vscode/
+>>>>>>> 1f56200e6da4dd854abbcea09ed4686b7af1d32d
 
 # =========================
 # MacOS system files
@@ -56,25 +82,47 @@ ehthumbs.db
 Desktop.ini
 
 # =========================
+<<<<<<< HEAD
 # Build directories
 # =========================
 build/
 out/
+=======
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+>>>>>>> 1f56200e6da4dd854abbcea09ed4686b7af1d32d
 
 # =========================
 # Testing
 # =========================
 coverage/
+<<<<<<< HEAD
 htmlcov/
 .tox/
 .nox/
 .pytest_cache/
 .cache/
 jest-coverage/
+=======
+
+# =========================
+# Build directories
+# =========================
+dist/
+>>>>>>> 1f56200e6da4dd854abbcea09ed4686b7af1d32d
 
 # =========================
 # Others
 # =========================
 *.local
 *.lock
+<<<<<<< HEAD
 .vercel/
+=======
+>>>>>>> 1f56200e6da4dd854abbcea09ed4686b7af1d32d
