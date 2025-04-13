@@ -47,12 +47,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     try {
       console.log('Attempting login with:', { regno, role });
       
-      const response = await fetch('http://localhost:5004/api/auth/login', {
+      const response = await fetch('http://localhost:5000/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ regno, password, role }),
+        body: JSON.stringify({ 
+          registerNumber: regno, 
+          password: password, 
+          userType: role 
+        }),
       });
 
       const data = await response.json();
